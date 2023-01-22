@@ -1,0 +1,149 @@
+#franja_sup {
+    background-color:  rgb(248, 224, 84);
+    padding: 50px;
+} /* con el widht es el ancho y lo puedo usar desde css para hacer tipo columnas con el color */
+
+svg {
+    width: 40px;
+    height: 40px;
+    background-color:  rgba(245, 245, 245, 0.678);
+    align-items: center;
+    border: 1px solid rgba(245, 245, 245, 0.678);
+    border-radius: 100%
+}
+
+.col-4 {
+    background-color: rgb(248, 224, 84);
+}
+
+#foto {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 100%;
+    border-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.secciones {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border: 5px solid rgb(37, 35, 35);
+    background-color: rgb(37, 35, 35) ;
+    padding: 8px;
+    margin-right: 10px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.textos {
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(37, 35, 35);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.secciones_2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border: 5px solid rgb(37, 35, 35);
+    background-color: rgb(37, 35, 35) ;
+    padding: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.experiencia {
+    font-family: "roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    /*como hago para que sea mas negrita!!!???*/
+    text-align: left;
+    color: rgb(37, 35, 35);
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px rgb(247, 178, 119);
+    border-left: 3px solid rgb(230, 136, 81);
+    background-color: rgb(247, 178, 119);
+    width: 700px;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    align-items: baseline;
+}
+
+.boton_mostrar {
+    background-color: bisque;
+    border: rgb(37, 35, 35); ;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: rgb(37, 35, 35);;
+    border-radius: 12px;
+    
+}
+
+.boton_mostrar:hover {
+    background-color:rgb(37, 35, 35);
+    color: bisque;
+    transition-duration: 0.5s;
+}
+
+.periodo {
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: left;
+    color: rgb(37, 35, 35);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.textos_2 {
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(37, 35, 35);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.aparece {
+    display: none;
+    
+}
+
