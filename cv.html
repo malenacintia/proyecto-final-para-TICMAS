@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final CV para Ticmas</title>
+    <link rel="stylesheet" type="text/css" href="cv_estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/d0a5dc628d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="franja_sup">
+    <i id="icono_arriba" class="fa-solid fa-code"></i>
+    <h1>Malena Cintia Gallardo</h1>
+  </div>
+    
+  <div class="container-text-center">
+        <div class="row">
+          <div id="columna_1" class="col-12 col-md-4 col-lg-4">
+            <img id="foto" src="C:\Users\Malena\Desktop\cursos programacion\Screenshot_20230110-132449-514.png" 
+            alt="foto_presentación" height="300px" width="300px">
+            
+            <div id="iconos">
+              <h4>LIC. EN KINESIOLOGIA</h4>
+              <i class="fa-solid fa-brain"></i>
+              <h4>DEPORTISTA</h4>
+              <i class="fa-solid fa-person-swimming"></i>
+           </div>
+
+            <section>
+              <div class="secciones"><strong>SOBRE MI</strong></div>
+              <p class="textos">
+                Gracias a mi experiencia en diferentes campos (educativo, asistencial, etc) cuento con habilidades
+                comunicativas e interpersonales que me permiten desarrollarme en diferentes ámbitos de trabajo.
+                Todo lo adquirido durante estos años me brinda lo necesario para entender las manifestaciones
+                kinéticas del movimiento.
+              </p>
+            </section>
+
+            <section>
+              <div class="secciones"><strong>STRENGTHS</strong></div>
+              
+                <p class="textos">
+                - Habilidades comunicativas e interpersonales.<br>
+                - Adaptabilidad a nuevos entornos.<br>
+                - Amplio repertorio en relación al movimiento humano.
+                </p>
+              
+            </section>
+
+            <section>
+              <div class="secciones"><strong>CONTACTO</strong></div>
+              <p class="textos">
+                Fecha de nacimiento: 28/10/94<br>
+                Nacionalidad: Argentina<br>
+                Pasaporte: XXXXXXX<br>
+                Teléfono de contacto: 1168733715<br>
+                <button id="boton_mail">
+                  Mail
+                  <i class="fa-regular fa-paper-plane"></i>
+                  <a href="mailto:malenacintia@gmail.com.com"></a> 
+                </button>
+              </p>
+            </section>
+          </div>
+
+          <div id="columna_2" class="col-12 col-md-8 col-lg-8">
+        
+            <section>
+              <div class="secciones_2"><strong>EXPERIENCIA LABORAL</strong></div>
+              
+              <div class="experiencia">
+                <div style="align-self: center">Fisioterapeuta y monitora de pilates</div>
+                <button type="button" id="boton_ver0" class="boton_ver">Ver más</button>
+                <button type="button" class="boton_ocultar" id="boton_ocultar0" >Ver menos</button>
+              </div>
+              <div class="aparece" id="contenido0">
+                <div class="periodo">Febrero 2020 - Noviembre 2022</div>
+                <p class="textos_2">
+                  - Atención de pacientes privados. <br>
+                  - Rehabilitación basada en ejercicio terapéutico.<br>
+                  - Terapia manual, fisioterapia invasiva y ecografía músculoesquelética. <br>
+                  - Monitora en clases privadas y grupales de pilates en suelo y máquinas. 
+                </p>
+              </div>
+
+              <div class="experiencia">
+                <div style="align-self: center">Kinesióloga - Hospital Británico (Buenos Aires - Argentina)</div>
+                <button type="button" id="boton_ver1" class="boton_ver">Ver más</button>
+                <button type="button" class="boton_ocultar" id="boton_ocultar1" >Ver menos</button>
+              </div>
+              <div class="aparece" id="contenido1">
+                <div class="periodo">Enero 2019 - Octubre 2019</div>
+                <p class="textos_2">
+                  - Atención de pacientes ambulatorios e internados. <br>
+                  - Fisioterapia y rehabilitación física en gimnasio.<br>
+                  - Confección de historias clínicas y derivación profesional.
+                </p>
+              </div>
+
+              <div class="experiencia">
+                <div style="align-self: center">Docente de Trabajos Prácticos Simple -<br>Universidad Nacional de Hurlingham (Buenos Aires - Argentina)</div>
+                <button type="button" id="boton_ver2" class="boton_ver" style="align-self: center">Ver más</button>
+                <button type="button" class="boton_ocultar" id="boton_ocultar2" >Ver menos</button>
+              </div>     
+              <div class="aparece" id="contenido2">                
+                <div class="periodo">Marzo 2019 - Noviembre 2019</div>
+                <p class="textos_2">
+                  - Dictado de clases en las siguientes cátedras: Anatofisiología 1, Biofísica e Historia de la
+                  kinesiología.<br>
+                  - Evaluación y seguimiento de estudiantes.<br>
+                  - Tareas de investigación docente.
+                </p>
+              </div>
+              
+              <div class="experiencia">
+                <div style="align-self: center">Kinesióloga en hidroterapia (Buenos Aires - Argentina)</div>
+                <button type="button" id="boton_ver3" class="boton_ver">Ver más</button>
+                <button type="button" class="boton_ocultar" id="boton_ocultar3" >Ver menos</button>
+              </div>
+              <div class="aparece" id="contenido3">
+                <div class="periodo">Junio 2016 - Octubre 2019</div>
+                <p class="textos_2">
+                - Atención de pacientes pediátricos con diversas patologías psicomotoras, mentales y
+                neurológicas.<br>
+                - Evaluación y seguimiento de pacientes.<br>
+                - Tareas de investigación y jornada científica.
+                </p>
+              </div>
+            </section>
+
+            <section>
+              <div class="secciones_2"><strong>FORMACION PROFESIONAL</strong></div>
+              <h5>Licenciada en Kinesiología y Fisiatría (2018)</h5>
+              <div class="periodo">Universidad Nacional de La Matanza</div>
+              <p class="textos_2">
+              - Ayudante alumna en la cátedra de Anatomía descriptiva y topográfica 2.<br>
+              - Becaria en Investigación en Salud. Programa de transferencia de Tecnologías e innovaciones, Secretaría de Ciencia y Tecnología de UNLaM.<br>
+              - Presentación de posters y conferencia de trabajos científicos en las Jornadas Metropolitanas de Estudiantes de Kinesiología y Fisiatría de la Universidad de Buenos Aires.<br>
+              - Colaboradora en 1º y 2º Jornadas abiertas de Kinesiología y Fisiatría de la UNLaM.
+              </p>
+
+              <h5>Curso Internacional de Acupuntura Nivel I (2020)</h5>
+              <div class="periodo">Instituto Médico Argentino de Acupuntura</div>              
+
+              <h5>Certificación Internacional en Técnicas Hipopresivas (2022)</h5>
+              <div class="periodo">KBD Hipopresivos</div>
+
+              <h5>Monitor de pilates suelo, matrícula de honor (2022)</h5>
+              <div class="periodo">Federación Madrileña de Salvamento y Socorrismo</div>
+            </section>
+
+            <section>
+              <div class="secciones_2"><strong>INDORMACION ADICIONAL</strong></div>
+              <h5>Idiomas</h5>
+              <p class="textos_2">
+              -Inglés nivel intermedio.<br>
+              -Italiano nivel intermedio.
+              </p>
+
+              <h5>Habilidades digitales</h5>
+              <p class="textos_2">
+              -Habilidades digitales básicas.<br>
+              -Conocimientos básicos de lenguajes de programación Javascript, Java, Ruby.<br>
+              -Conocimientos básicos de diseño web.
+              </p>
+
+              <button type="button" id="boton_animacion" class="boton_animacion">Ponete en contacto</button>
+
+            </section>
+            
+          </div>
+        </div>
+    </div>
+
+    <div id="franja_inf">
+      <p id="consulta">¿Querés realizar una consulta?</p> 
+
+      <form class="formulario" action="" method="get">
+        <fieldset>
+        <legend>Tus datos:</legend> <br>
+        <label>Nombre</label> <br>
+        <input type="text" name="nombre" placeholder="Ingrese su nombre" /> <br>
+        <label>Apellido</label> <br>
+        <input type="text" name="apellido" placeholder="Ingrese su apellido" /> <br>
+        <label>E-mail</label> <br>
+        <input type="email" name="email" placeholder="Ingrese su e-mail" /> <br> 
+        <label>Mensaje</label> <br>
+        <input id="texto" type="text" name="mensaje" placeholder="Escriba su mensaje" /> <br>
+        <input id="boton_enviar" type="submit" value="Enviar" /> 
+        <span id="chequeo"> Tu mensaje se enviará cuando pulses "Enviar"</span>
+      </fieldset>
+    </form>
+      
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <script src="cv_comp.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="cv_estilos.css" />
+</body>
+</html>

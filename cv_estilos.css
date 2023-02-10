@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+#franja_sup {
+    background-color:  rgb(173, 240, 143);
+    padding-bottom: 40px;
+    padding-top:1px;
+} /* con el width es el ancho y lo puedo usar desde css para hacer tipo columnas con el color */
+
+#icono_arriba {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+#columna_1 {
+    background-color: rgb(173, 240, 143);
+}
+
+#foto {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 100%;
+    border-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 1px;
+}
+
+#iconos {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+
+.secciones {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border: 5px solid rgb(37, 35, 35);
+    background-color: rgb(37, 35, 35) ;
+    padding: 8px;
+    margin-right: 10px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+#boton_mail {
+    background-color: rgb(195, 241, 174);
+    border: rgb(195, 241, 174);
+
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(37, 35, 35);
+}
+
+.textos {
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(37, 35, 35);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.secciones_2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border: 5px solid rgb(37, 35, 35);
+    background-color: rgb(37, 35, 35) ;
+    padding: 8px;
+    margin-top: 40px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.experiencia {
+    font-family: "roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: left;
+    color: rgb(37, 35, 35);
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px;
+    border-left: 3px solid rgba(122, 190, 180, 0.911);
+    background-color: rgba(148, 226, 214, 0.911);
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*align-content: baseline;
+    align-items: baseline;*/
+}
+
+.boton_ver {
+    background-color: bisque;
+    border: rgb(37, 35, 35); ;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    text-align: center;
+    color: rgb(37, 35, 35);
+    border-radius: 12px;
+}
+
+.boton_ver:hover {
+    background-color:rgb(37, 35, 35);
+    color: bisque;
+    transition-duration: 0.5s;
+}
+
+.boton_ocultar {
+    background-color:rgb(59, 58, 58);
+    color: bisque;
+    border: rgb(59, 58, 58) ;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 12px;
+
+    display: none;
+}
+
+.boton_ocultar:hover {
+    background-color: bisque;
+    color: rgb(37, 35, 35);
+    transition-duration: 0.5s;
+}
+
+
+.aparece {
+    display: none;
+}
+
+.periodo {
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: left;
+    color: rgb(37, 35, 35);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.textos_2 {
+    font-family: "roboto", sans-serif;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(37, 35, 35);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1px;
+}
+
+h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 3px;
+}
+
+#franja_inf {
+    background-color:rgb(176, 138, 185);
+    padding: 20px;
+}
+
+.formulario {
+    font-family: "roboto", sans-serif;
+    font-weight: bolder;
+}
+
+#consulta {
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    color:rgb(37, 35, 35);
+}
+
+#boton_animacion {
+    background-color:rgb(199, 160, 207);
+    color: rgb(37, 36, 36);
+    border: solid rgb(176, 138, 185);
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 12px;
+    align-self: self-end;
+    align-items:last baseline;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+fieldset {
+    border: solid rgb(185, 136, 197);
+    background-color: rgb(218, 203, 203);
+    border-radius: 3px;
+}
+
+legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    width: fit-content;
+  }
+
+  label {
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  input {
+    border-radius: 2px;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  #texto {
+    width: 300px;
+    height: 150px;
+  }
+
