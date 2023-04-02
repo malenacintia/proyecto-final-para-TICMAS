@@ -1,0 +1,126 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Front end</title>
+    <script src="https://kit.fontawesome.com/d0a5dc628d.js" crossorigin="anonymous"></script>
+    <link  rel="icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&family=Montserrat:wght@400;500&family=Roboto:ital,wght@0,300;0,700;1,100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <header style="background-image: url('img/fondo.jpg')">
+
+    </header>-->
+    <header>
+        <div>
+            <img id="img_encabezado" src="img/fondo.jpg">
+        </div>
+    </header>
+
+
+    <nav>
+        <ul>
+            <i class="fa-solid fa-house"></i>
+            <li style="display: inline"><a href="#inicio">Inicio</a></li>
+            <i class="fa-solid fa-people-line"></i>
+            <li style="display: inline"><a href="#nosotros">Sobre nosotros</a></li>
+            <i class="fa-solid fa-bone"></i>
+            <li style="display: inline"><a href="#servicio">Servicios</a></li>
+            <!--menu desplegable al pararse con el cursor
+        que diga los servicios que se podrá acceder tambien de más abajo-->
+            <i class="fa-solid fa-comment-dots"></i>
+            <li style="display: inline"><a class="active" href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="servicios"> <!--cada div con una imagen de fondo y una separación con otra info entre div y div para que no queden
+    muchas imagenes pegadas-->
+        <h2> BIENVENIDOS </h2>
+        <p>Este centro es etc etc etc</p>
+        <!--imagenes que al pararse o clickear me redirijan a un html de ese servicio-->
+        <div class="container"> 
+            <a href="pilates.html"><img src="img/pilates.jpg" alt="Pilates">
+                <div class="texto-imagen" title="Clases en máquinas y en suelo">Pilates</div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="paginaej.html"><img src="img/kinesiologia.jpg" alt="Sesiones de Kinesiología">
+                <div class="texto-imagen">Sesiones de Kinesiología</div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="paginaej.html"><img src="img/kineonline.jpg" alt="Kinesiología online">
+                <div class="texto-imagen">Kinesiología online</div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="paginaej.html"><img src="img/hipo.jpg" alt="GAH">
+                <div class="texto-imagen">Gimnasia abdominal hipopresiva</div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="paginaej.html"><img src="img/parto.jpg" alt="Preparación al parto">
+                <div class="texto-imagen">Preparación al parto</div>
+            </a>
+        </div>
+        <div class="container">
+            <a href="paginaej.html"><img src="img/empresas.jpg" alt="Servicio a empresas">
+                <div class="texto-imagen">Servicio a empresas</div>
+            </a>
+        </div>
+
+    </section>
+
+    <div id="clientes">
+        <h2>NUESTROS CLIENTES DICEN</h2>
+    </div>
+
+    <div>
+        <h2>NEWSLETTER</h2>
+        <form action="Link" method="post" target="_blank">
+            <fieldset>
+                <label for="nombre">Nombre </label> <br>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required cols="30" /> <br>
+                <label for="apellido">Apellido </label> <br>
+                <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required cols="30" /> <br>
+                <label for="email">Dirección de correo electrónico </label><br>
+                <input type="email" id="email" name="email" placeholder="Ingrese su e-mail" required cols="30" /> <br>
+                <label for="opcion">Quiero recibir información en mi correo electrónico de... </label><br>
+                <input type="checkbox" name="opcion" value="1"> Promociones
+                <input type="checkbox" name="opcion" value="2"> Tema semanal
+                <input type="checkbox" name="opcion" value="3"> Catálogo de servicios
+                <input type="checkbox" name="opcion" value="4"> Cursos y formaciones <br>
+                <label for="consulta">Una consulta que quieras realizar</label> <br>
+                <textarea id="consulta" name="consulta" rows="5" cols="30"></textarea> <br>
+                <input id="boton_enviar" type="submit" value="Enviar" />
+                <input id="boton_reset" type="reset" value="Reiniciar" /> <br>
+                <span id="chequeo"> Tu mensaje se enviará cuando pulses "Enviar"</span><!--cambiar a "tu petición se ha enviado"
+                cuando se pulse (no me acuerdo si se hacia con css)
+                Tambien poner los campos como obligatorios
+                Dar formato con css  a todo (placeholder, boton de enviar, etc)-->
+            </fieldset>
+        </form>
+    </div>
+
+    <div id="mapa">
+        <h2>DONDE ENCONTRARNOS</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.3970753242!2d-58.57338494756602!3d-34.61546111637758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA%2C%20Argentina!5e0!3m2!1ses!2ses!4v1679086756793!5m2!1ses!2ses"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" scrolling="yes">Como ir desde tu ubicación</iframe>
+    </div>
+    <footer>
+        <!--logo
+        menu de nuevo
+        -->
+    </footer>
+
+    <link rel="stylesheet" type="text/css" href="css/estilos-proyecto-front.css" />
+</body>
+
+</html>

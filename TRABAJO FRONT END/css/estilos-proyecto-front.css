@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif, 'Montserrat', sans-serif;;
+} /*esto no sé si sirve para algo*/
+
+header {
+    background-color: rgb(108, 206, 173);  
+    background-image: linear-gradient(to top, rgb(108, 206, 173), rgb(56, 121, 99));  
+}
+
+#img_encabezado {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity: 0.8; 
+  animation-name: aumento_img;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  }
+
+  @keyframes aumento_img {
+    from {width: 25%;}
+    to {width: 50%;}
+  }
+
+.menu { display: inline }
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5%;
+} /*esto hace que las imagenes sean responsivas*/
+
+.container {
+    position: relative;
+    display: inline;
+    opacity: 0.8;
+  }
+
+  .container:hover{
+    opacity: 1;
+    zoom: 111%;
+  }
+
+  .container img:hover {
+    border: solid rgb(65, 62, 62) 2px;
+    border-radius: 10%;
+    animation-name: aumento_img_servicios;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    
+  }
+
+  @keyframes aumento_img_servicios {
+    from {width: 28%;}
+    to {width: 30%;}
+  }
+  
+.texto-imagen {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+  transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    width: 80%;
+    background-color:rgba(255, 255, 255, 60%);
+    color:black;
+  }
+
+  #nombre, #apellido, #email, #textarea {
+    border-color:rgb(27, 97, 129) ;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color: rgb(66, 177, 177);
+    width: 20rem;
+    height: 2rem;
+  }
+
+  input {
+    margin-bottom: 1.5rem;
+  }
+
+  fieldset {
+    background-color: rgb(66, 177, 177);
+  }
+
+  #boton_enviar, #boton_reset {
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color:rgb(27, 97, 129)
+
+  }
+ 
+  
+ 
